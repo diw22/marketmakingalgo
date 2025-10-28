@@ -28,7 +28,7 @@ Other functions such as `track_delta` or `track_pnl` are used for monitoring pur
 
 This graph measures the hourly PNL rate of each team. We were team-028, and you can clearly see the highest gradiet after implementing a change at :15, which had a positive impact on our performance.
 
-## Things to improve
+## Possible improvements
 
 Overall, the performance of this strategy was excellent. The 2 teams that had a higher position at the end of the competition were using a similar strategy, but also trading indices. We were not aware that index trading was a part of the competition, but we should have spent more time on fully understanding all the possible options allowed.
 
