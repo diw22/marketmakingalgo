@@ -24,7 +24,7 @@ There are 2 main functions to take an action in a given orderbook:
   - Confidence Ratio: from volume_weighted_average and using Black Sholes, we estimate the price of the stock we are trading. We derive a confidence ratio, for the space between the estimated price and the current price - to avoid being overly exposed to fast price fluctuations against our favour.
  
 Other functions such as `track_delta` or `track_pnl` are used for monitoring purposes, to ensure that overtime we stay delta neutral, and to see the impact on how tweaking different components had an impact in our PNL. This was a key part in the optimazation of our stategy.
-
+![alt text](assets/pnl.jpg)
 This graph measures the hourly PNL rate of each team. We were team-028, and you can clearly see the fastest growing gradient after implementing a change at :15, which had a positive impact on our performance.
 
 ## Things to improve
@@ -32,7 +32,7 @@ This graph measures the hourly PNL rate of each team. We were team-028, and you 
 Overall, the performance of this strategy was excellent. The 2 teams that had a higher position at the end of the competition were using a similar strategy, but also trading indices. We were not aware that index trading was a part of the competition, but we should have spent more time on fully understanding all the possible options allowed.
 
 Nevertheless, we this meant that we had the best strategy for purely trading options and futures, and if we had extrapolated the strategy to indices, we could have vastly improved our overall performance.
-
+![alt text](assets/graph.jpg)
 Also, the active strategy could be improved by taking arbitrage oportunities between options futures and underlying stocks, taking Black Sholes as the relation between those. This was not done as active trading was a minimal part of our PNL, and choose to focus on improving the passive strategy.
 
 
