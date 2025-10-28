@@ -2,7 +2,7 @@
 
 ## Description
 This page lays out the work done to develop an algorithmic trading model that ranked 3rd place in an Optiver trading competition.
-
+![alt text](Options.png)
 This `readme` is not an exhaustive explanation of the code, which is in total more than 400 lines, but serves to give an understanding of the strategy taken, as well as a brief description of the important functions.
 
 ## Strategy
