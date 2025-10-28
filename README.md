@@ -34,7 +34,7 @@ Overall, the performance of this strategy was excellent. The 2 teams that had a 
 
 Nevertheless, we this meant that we had the best strategy for purely trading options and futures, and if we had extrapolated the strategy to indices, we could have vastly improved our overall performance.
 ![alt text](assets/graph.jpg)
-<img src="graph.jpg" width="200" height="100">
+<img src="assets/graph.jpg" width="200" height="100">
 Also, the active strategy could be improved by taking arbitrage oportunities between options futures and underlying stocks, taking Black Sholes as the relation between those. This was not done as active trading was a minimal part of our PNL, and choose to focus on improving the passive strategy.
 
 
